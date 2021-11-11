@@ -138,6 +138,6 @@ console.log(list());
 const bmwSum = () => {
   return `Total Price is ${cars
     .filter((car) => car.brand === "BMW")
-    .reduce((acc, valor) => acc + valor.price, 0)};`;
+    .reduce((acc, valor) => acc + valor.price, 0)}`;
 };
 console.log(bmwSum());
